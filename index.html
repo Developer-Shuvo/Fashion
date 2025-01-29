@@ -12,20 +12,20 @@
 <body>
 
     <!-- ------Header Part------- -->
-    <header class="bg-[#FFFBF0] h-175">
+    <header class="bg-[#FFFBF0] max-w-[100%] mx-auto overflow-hidden">
         <!-- ----Navbar Part---  -->
-        <nav class="flex justify-between px-32 py-10">
+        <nav class="flex justify-between pt-10 pb-8 mx-auto max-w-7xl item-center">
             <div class="flex gap-x-2">
-                <img class="h-10 w-12 gap-5" src="./icons/nav-panguine-icon.svg" alt="">
-                <h3 class="text-2xl font-bold ">
+                <img class="justify-center h-12 gap-4 w-14" src="./icons/nav-panguine-icon.svg" alt="">
+                <h3 class="items-center justify-center text-2xl font-bold ">
                     <span class="text-[#A4BC46]">Penguin</span>
                     <span class="text-[#363958]">Fashion</span>
                 </h3>
             </div>
 
-            <div class="inline-flex justify-between gap-8 text-[#3C3C3C] cursor-pointer ">
+            <div class="inline-flex justify-between gap-8  text-[#3C3C3C] cursor-pointer">
                 <div>
-                    <h3>Home</h3>
+                    <h3 class="">Home</h3>
                 </div>
                 <div>
                     <h3>Product</h3>
@@ -42,17 +42,17 @@
 
         <!-- ----------Banner-Part---------- -->
 
-        <section class="px-32 flex justify-between">
+        <section class="flex justify-center mx-auto max-w-7xl item-center gap-x-14">
             <!-- ___banner-txt___ -->
             <div>
-                <h1 class="text-7xl mt-25 uppercase font-bold"> <span class="text-[#FABE4C]  ">Be the Penguins</span>
+                <h1 class="font-bold uppercase text-7xl mt-25"> <span class="text-[#FABE4C]  ">Be the Penguins</span>
                     <br> <span class="text-[#363958]">of Winter</span></h1>
 
                 <p class="text-[#3E3E3E] mt-1">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
 
                 <!-- -----Button---- -->
                 <div>
-                    <button class=" mt-5 bg-green-200 rounded cursor-pointer text-black-800 h-12 w-30 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                    <button class="h-12 mt-5 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-30 bg-linear-to-r from-green-200 to-green-500 hover:to-yellow-500">Buy Now</button>
                 </div>
 
             </div>
@@ -72,24 +72,25 @@
     <!-- ----------Main/body Part----------- -->
 
 
-    <!-- --------------Woman Fashion Section-------------- -->
-    <main class="flex item-center justify-center px-32 gap-x-8">
+
+    <!-- --------------Woman Fashion Section------------ -->
+    <main class="grid justify-center grid-cols-1 mx-auto md:grid-cols-3 max-w-7xl item-center gap-x-8">
         <!-- -----card 1 ------  -->
         <section class="">
             <h1 class="font-bold text-5xl text-[#363958] mt-12 mb-5 uppercase font-mono  ">Woman Jacket</h1>
-            <div class=" flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl">
+            <div class="flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl">
 
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex flex-col ">
+                <div class="flex items-center justify-center ">
+                    <div class="flex flex-col ">
 
                         <div class="flex justify-center item-center bg-[#F1F1F1] rounded-3xl mx-8">
                             <img class="w-[270px]  h-[290px] flex items-center  justify-center p-5" src="./images/jacket-1.png" alt="">
                         </div>
                         <h2 class="font-bold text-2xl text-[#363958] mt-4 mx-8">Yellow Coat Jacket </h2>
                         <p class="font-normal text-base text-[#3E3E3E] mt-2 mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div class="flex item-center justify-between  mt-5 mx-8">
+                        <div class="flex justify-between mx-8 mt-5 item-center">
                             <p class="font-bold text-[#FABE4C] text-3xl">$234</p>
-                            <button class="bg-green-200 rounded cursor-pointer text-black-800 h-10 w-28 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                            <button class="h-10 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-28 bg-linear-to-r from-green-200 to-green-500 hover:to-lime-400 ">Buy Now</button>
                         </div>
                     </div>
 
@@ -101,17 +102,17 @@
             <!-- <h1 class="font-bold text-5xl text-[#363958] mt-12 mb-5 uppercase font-mono  ">Woman Jacket</h1> -->
             <div class=" flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl ">
 
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex flex-col ">
+                <div class="flex items-center justify-center ">
+                    <div class="flex flex-col ">
 
                         <div class="flex justify-center item-center bg-[#F1F1F1] rounded-3xl mx-8">
                             <img class="w-[270px]  h-[290px] flex items-center  justify-center p-5 " src="./images/jacket-2.png" alt="">
                         </div>
                         <h2 class="font-bold text-2xl text-[#363958] mt-4 mx-8 ">Yellow Coat Jacket </h2>
                         <p class="font-normal text-base text-[#3E3E3E] mt-2 mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div class="flex item-center justify-between  mt-5 mx-8">
+                        <div class="flex justify-between mx-8 mt-5 item-center">
                             <p class="font-bold text-[#FABE4C] text-3xl">$234</p>
-                            <button class="bg-green-200 rounded cursor-pointer text-black-800 h-10 w-28 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                            <button class="h-10 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-28 bg-linear-to-r from-green-200 to-green-500 hover:to-lime-400">Buy Now</button>
                         </div>
                     </div>
 
@@ -123,17 +124,17 @@
             <!-- <h1 class="font-bold text-5xl text-[#363958] mt-12 mb-5 uppercase font-mono  ">Woman Jacket</h1> -->
             <div class=" flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl">
 
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex flex-col ">
+                <div class="flex items-center justify-center ">
+                    <div class="flex flex-col ">
 
                         <div class="flex justify-center item-center bg-[#F1F1F1] rounded-3xl mx-8">
                             <img class="w-[270px]  h-[290px] flex items-center  justify-center p-5" src="./images/jacket-3.png" alt="">
                         </div>
                         <h2 class="font-bold text-2xl text-[#363958] mt-4 mx-8 ">Yellow Coat Jacket </h2>
                         <p class="font-normal text-base text-[#3E3E3E] mt-2 mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div class="flex item-center justify-between  mt-5 mx-8">
+                        <div class="flex justify-between mx-8 mt-5 item-center">
                             <p class="font-bold text-[#FABE4C] text-3xl">$234</p>
-                            <button class="bg-green-200 rounded cursor-pointer text-black-800 h-10 w-28 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                            <button class="h-10 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-28 bg-linear-to-r from-green-200 to-green-500 hover:to-lime-400 ">Buy Now</button>
                         </div>
                     </div>
 
@@ -143,23 +144,23 @@
 
     </main>
     <!-- --------------Man Fashion Section-------------- -->
-    <main class="flex item-center justify-center px-32 gap-x-8">
+    <main class="grid justify-center grid-cols-1 mx-auto mt-5 md:grid-cols-3 max-w-7xl item-center gap-x-8 ">
         <!-- -----card 1 ------  -->
         <section class="">
             <h1 class="font-bold text-5xl text-[#363958] mt-12 mb-5 uppercase font-mono  ">Man Jacket</h1>
             <div class=" flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl">
 
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex flex-col ">
+                <div class="flex items-center justify-center ">
+                    <div class="flex flex-col ">
 
                         <div class="flex justify-center item-center bg-[#F1F1F1] rounded-3xl mx-8">
                             <img class="w-[270px]  h-[290px] flex items-center  justify-center p-5" src="./images/jacket-4.png" alt="">
                         </div>
                         <h2 class="font-bold text-2xl text-[#363958] mt-4 mx-8 ">Yellow Coat Jacket </h2>
                         <p class="font-normal text-base text-[#3E3E3E] mt-2 mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div class="flex item-center justify-between  mt-5 mx-8">
+                        <div class="flex justify-between mx-8 mt-5 item-center">
                             <p class="font-bold text-[#FABE4C] text-3xl">$234</p>
-                            <button class="bg-green-200 rounded cursor-pointer text-black-800 h-10 w-28 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                            <button class="h-10 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-28 bg-linear-to-r from-green-200 to-green-500 hover:to-lime-400">Buy Now</button>
                         </div>
                     </div>
 
@@ -171,17 +172,17 @@
             <!-- <h1 class="font-bold text-5xl text-[#363958] mt-12 mb-5 uppercase font-mono  ">Woman Jacket</h1> -->
             <div class=" flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl ">
 
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex flex-col ">
+                <div class="flex items-center justify-center ">
+                    <div class="flex flex-col ">
 
                         <div class="flex justify-center item-center bg-[#F1F1F1] rounded-3xl mx-8">
                             <img class="w-[270px]  h-[290px] flex items-center  justify-center p-5" src="./images/jacket-5.png" alt="">
                         </div>
                         <h2 class="font-bold text-2xl text-[#363958] mt-4 mx-8 ">Yellow Coat Jacket </h2>
                         <p class="font-normal text-base text-[#3E3E3E] mt-2 mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div class="flex item-center justify-between  mt-5 mx-8">
+                        <div class="flex justify-between mx-8 mt-5 item-center">
                             <p class="font-bold text-[#FABE4C] text-3xl">$234</p>
-                            <button class="bg-green-200 rounded cursor-pointer text-black-800 h-10 w-28 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                            <button class="h-10 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-28 bg-linear-to-r from-green-200 to-green-500 hover:to-lime-400">Buy Now</button>
                         </div>
                     </div>
 
@@ -193,8 +194,8 @@
             <!-- <h1 class="font-bold text-5xl text-[#363958] mt-12 mb-5 uppercase font-mono  ">Woman Jacket</h1> -->
             <div class=" flex items-center rounded-3xl w-[380px]  h-[550px] justify-center shadow-xl">
 
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex flex-col ">
+                <div class="flex items-center justify-center ">
+                    <div class="flex flex-col ">
 
                         <div class="flex justify-center item-center bg-[#F1F1F1] rounded-3xl mx-8">
                             <img class="w-[270px]  h-[290px] flex items-center  justify-center p-5 " src="./images/jacket-6.png" alt="">
@@ -202,9 +203,9 @@
                         <h2 class="font-bold text-2xl text-[#363958] mt-4 mx-8 ">Yellow Coat Jacket </h2>
                         <p class="font-normal text-base text-[#3E3E3E] mt-2 mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <!-- ----Button---  -->
-                        <div class="flex item-center justify-between  mt-5 mx-8">
+                        <div class="flex justify-between mx-8 mt-5 item-center">
                             <p class="font-bold text-[#FABE4C] text-3xl">$234</p>
-                            <button class="bg-green-200 rounded cursor-pointer text-black-800 h-10 w-28 border bg-linear-to-r from-green-200 to-green-500 shadow-lg border-none ">Buy Now</button>
+                            <button class="h-10 bg-green-200 border border-none rounded shadow-lg cursor-pointer text-black-800 w-28 bg-linear-to-r from-green-200 to-green-500 hover:to-lime-400">Buy Now</button>
                         </div>
                     </div>
 
@@ -220,9 +221,9 @@
 
 
     <!-------------Last Section-------------->
-    <section class="mb-[200px] px-32 flex justify-center mt-[130px] gap-x-[38px]">
+    <section class="md:max-w-7xl  mx-auto flex flex-wrap item-center justify-center gap-x-8 mt-[130px]">
 
-        <div class=" flex-col ">
+        <div class="flex-col ">
             <!-------card 1------->
             <div class="py-4 ">
                 <div class="flex item-center justify-center h-[135px] w-[490px] rounded-3xl shadow-lg gap-x-5 ">
@@ -259,7 +260,7 @@
             </div>
         </div>
 
-        <img class="h-90 w-170  mt-16" src="./images/shopping.png " alt=" ">
+        <img class="mt-16 h-90 w-170" src="./images/shopping.png " alt=" ">
     </section>
 
 
